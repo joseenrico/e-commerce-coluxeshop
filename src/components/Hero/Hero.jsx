@@ -22,7 +22,7 @@ const ImageList = [
   {
     id: 3,
     img: Image3,
-    title: "35% off on all Products Sale",
+    title: "70% off on all Products Sale",
     description:
       "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },

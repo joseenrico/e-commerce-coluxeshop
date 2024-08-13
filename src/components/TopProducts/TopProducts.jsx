@@ -27,12 +27,12 @@ const ProductsData = [
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
-const TopProducts = ( ) => {
+const TopProducts = ({ handleOrderPopup }) => {
   return (
     <div>
       <div className="container">
         {/* Header section */}
-        <div className="mb-24 text-center">
+        <div className="text-center mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products for you
           </p>
@@ -74,6 +74,7 @@ const TopProducts = ( ) => {
                 </p>
                 <button
                   className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
+                  onClick={handleOrderPopup}
                 >
                   Order Now
                 </button>
